@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我的个人简历</title>
+    <link rel="stylesheet" href="loading.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.0/css/swiper.min.css">
+    <link rel="stylesheet" href="resume.css">
+    <script src="//at.alicdn.com/t/font_512952_61cm63kdn96vquxr.js"></script>
+
+</head>
+<body>
+<div class="site-welcome active" id="siteWelcome">
+    <div class="loading"></div>
+</div>
+
+<div class="topNavBar" id="topNavBar">
+    <div class="topNavBar-inner clearfix">
+        <a class="logo" href="#"  style="float: left;">
+            <span class="rs">RE</span><span class="card">card</span>
+        </a>
+        <nav class="menu" style="float: right;">
+            <ul class="clearfix">
+                <li><a href="#siteAbout">关于</a></li>
+                <li><a href="#siteSkill">技能</a></li>
+                <li ><a  href="#siteWorks">作品</a>
+                    <ul class="submenu">
+                        <li>作品一</li>
+                        <li>作品二</li>
+                        <li>作品三</li>
+                    </ul>
+                </li>
+
+                <li ><a   href="#siteBlog">博客</a>
+                    <ul class="submenu">
+                        <li>博客一</li>
+                        <li>博客二</li>
+                        <li>博客三</li>
+                    </ul>
+                </li>
+                <li><a href="#">日历</a></li>
+                <li><a href="#">联系方式</a></li>
+                <li><a href="#">其他</a></li>
+
+
+            </ul>
+        </nav>
+    </div>
+
+
+</div>
+
+<div class="banner" >
+    <div class="mask"></div>
+</div>
+<main>
+
+    <div data-x id="siteAbout" class="userCard">
+        <div class="pictureAndText clearfix" >
+            <div class="picture"><img src="./img/avatar.jpeg" alt="头像"></div>
+            <div class="text">
+
+                <span class="welcome">hello
+                 <span class="triangle"></span>
+                </span>
+                <h1>王洁</h1>
+                <h2>前端开发工程师</h2>
+                <hr> <!----水平分割线--->
+                <dl> <!----描述标签-->
+                    <dt>年龄</dt>
+                    <dd>22</dd>
+                    <dt>所在城市</dt>
+                    <dd>上海</dd>
+                    <dt>邮箱</dt>
+                    <dd>17321256666@163.com</dd>
+                    <dt>手机</dt>
+                    <dd>17321256666</dd>
+                    <dt>毕业院校</dt>
+                    <dd>南昌大学</dd>
+                    <dt>本科专业</dt>
+                    <dd>软件工程</dd>
+                </dl>
+
+
+            </div>
+        </div>
+        <footer class="media">
+            <a href="https://www.jianshu.com/" target="_blank"><svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-jianshu"></use>
+            </svg></a>
+            <a href="https://weibo.com/" target="_blank"><svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-iconfonticonfontweibo"></use>
+            </svg></a>
+            <a href="https://github.com/tinaawang" target="_blank"><svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-github"></use>
+            </svg></a>
+            <a href="https://twitter.com/" target="_blank"><svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-tuite"></use>
+            </svg></a>
+            <a href="https://www.zhihu.com/" target="_blank"><svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-zhihu"></use>
+            </svg></a>
+
+        </footer>
+
+    </div>
+    <p class="downLoadResume-wrapper">
+        <a href="./downLoad.txt" class="downLoadResume" download>下载简历</a>
+    </p>
+
+    <p  class="selfIntroduction">王洁 前端开发工程师  目前工作地点在上海</p>
+
+
+</main>
+<section  data-x id="siteSkill" class="skills">
+    <h2>个人技能</h2>
+    <ol class="clearfix">
+        <li>
+            <h3>html 5 &amp; css3</h3>
+            <div class="progressBar">
+                <div class="progress"></div>
+            </div>
+        </li>
+        <li>
+            <h3>javascript</h3>
+            <div class="progressBar">
+                <div class="progress"></div>
+            </div>
+        </li>
+        <li>
+        <h3>JQuery</h3>
+            <div class="progressBar">
+                <div class="progress"></div>
+            </div>
+        </li>
+        <li>
+        <h3>vue</h3>
+            <div class="progressBar">
+                <div class="progress"></div>
+            </div>
+        </li>
+        <li>
+            <h3>React</h3>
+            <div class="progressBar">
+                <div class="progress"></div>
+            </div>
+        </li>
+        <li>
+            <h3>http</h3>
+            <div class="progressBar">
+                <div class="progress"></div>
+            </div>
+        </li>
+
+
+    </ol>
+
+
+
+
+</section>
+
+<section data-x  id="siteWorks" class="portfolio">
+   <h2>作品集</h2>
+    <div id="mySlides">
+
+        <div class="swiper-container">
+
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <img class="swiper-slide" src="./img/canvas-page.jpg">
+                <img class="swiper-slide" src="./img/nav-page.jpg">
+                <img class="swiper-slide" src="./img/cycle-page.jpg">
+
+            </div><!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+
+</section>
+<section class="message">
+    <h2>留言板</h2>
+    <ol id="messageList"></ol>
+    <form id="postMessageForm" style="width: 700px; margin:50px auto">
+        <lable>姓名</lable>
+        <input type="text" name="name" class="message-input">
+        <lable>内容</lable>
+        <input type="text" name="content" class="message-input">
+        <input type="submit" value="提交" id="message-submit">
+    </form>
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/17.1.1/Tween.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.0/js/swiper.min.js"></script>
+<script src="//cdn1.lncld.net/static/js/3.5.0/av-min.js"></script>
+
+<script src="./js/init-swiper.js"></script>
+<script src="./js/auto-slide-up.js"></script>
+<script src="./js/sticky-nav.js"></script>
+<script src="./js/loading.js"></script>
+<script src="./js/message.js"></script>
+<script src="./js/smoothly-nav.js"></script>
+
+</body>
+</html>
